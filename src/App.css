@@ -1,0 +1,85 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all 0.4s ease-in-out;
+}
+a , ul  NavLink{
+  color: inherit !important;
+  text-decoration: none !important;
+}
+ul {
+  list-style: none;
+  padding-left: 0 !important;
+  margin-bottom: 0 !important;
+}
+.container-l{
+  padding: 50px;
+}
+.navList{
+  display: flex;
+  gap: 20px;
+  color: gray;
+  font-weight: 600;
+  font-size: 18px;
+}
+.active {
+  color: black !important;
+}
+.loginBtn {
+  background-color: #2a3138;
+  width: 130px;
+  padding:5px 8px;
+  color: white ;
+  border: none;
+  text-align: center;
+  border-radius: 13px;
+  
+}
+.btn1{
+  font-size: 18px;
+  font-weight: 500;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  color: black !important;
+}
+.notfoundpage{
+  display: flex;
+  flex-direction: column;
+}
+.contact-list{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  padding: 15px !important;
+  color: #999c9e;
+  background-color: #293037;
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+}
+.contact-list-item{
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.contact-list-item.active{
+  color: white !important;
+}
+.sidebar{
+  height: 75vh;
+  display: flex;
+  align-items: center;
+}
+.contactpage{
+  display: flex;
+  gap: 265px;
+}
